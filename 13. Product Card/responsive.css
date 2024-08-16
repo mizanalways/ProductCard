@@ -1,0 +1,15 @@
+/* Responsive css */
+@media only screen and (max-width: 600px) {
+  .card {
+    width: 90%;
+    flex-direction: column;
+    margin-top: 25px;
+  }
+  .product_images img.desktop {
+    display: none;
+  }
+  .product_images img.mobile {
+    display: block;
+    width: 100%;
+  }
+}
